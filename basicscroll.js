@@ -11,13 +11,13 @@ $(document).ready(function(){
             }
         })
         // Make scroll cycle.
-        var doc_h = $(document).height() - window.innerHeight;
+        /*var doc_h = $(document).height() - window.innerHeight;
         if (cur == 0) {
             $(window).scrollTop(doc_h - 10)
         }
         if (cur == doc_h) {
             $(window).scrollTop(10)
-        }
+        }*/
     });
 
     $(window).on('beforeunload', function () {
