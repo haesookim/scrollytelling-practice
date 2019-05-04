@@ -24,5 +24,5 @@ $(document).ready(function(){
         $("html,body").scrollTop(window.innerHeight * 4);
     });
     // Initial
-    $("html,body").scrollTop(window.innerHeight * 4);
+    $("html,body").scrollTop(window.innerHeight * 1);
 });

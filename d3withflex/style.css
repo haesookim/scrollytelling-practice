@@ -1,0 +1,46 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.title-section{
+    width: 80%;
+    height: 200px;
+    margin: 30px auto;
+    background-color: orange;
+}
+
+.scroll-container{
+    display: flex;
+}
+
+.inline{
+    height: 100%;
+    width: 50%;
+}
+
+.inline div{
+    height: 600px;
+    width: 600px;
+    margin: 100px 50px;
+    background-color: green;
+    display: block;
+}
+
+#scrolly{
+    width: 140px;
+    height: 140px;
+    margin: 300px auto 50px auto;
+    position:sticky;
+    top: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.block{
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+}
